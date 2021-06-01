@@ -1,0 +1,66 @@
+body{
+    background-image: url(../images/background\ \(1\).png);
+    position: relative;
+}
+#logo{
+    width: 100px;
+
+}
+header{
+background-color: rgba(202, 240, 251, 255);
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+footer{
+    background-color: #f376a288;
+    margin-top: 37%;
+    text-align: center;
+    height: 50px;
+    vertical-align: middle;
+    line-height: 50px;
+}
+section{
+    float: right;
+    background-color: #5d4b7696;
+    color:black;
+    width: 50%;
+}
+section img {
+    height: 200px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+fieldset{
+position: absolute;
+width: 35%;
+background-color:#5d4b7696 ;
+border-radius: 10px;
+font-size: 20px;
+}
+*{
+    box-sizing: border-box;
+}
+label{
+    padding: 10px 10px 10px;
+}
+input[type=text],select  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+  }
+  #submit{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 120px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #40226b96;
+
+  }
